@@ -67,39 +67,24 @@
 			<read>[9-0]</read>
 		</transition>
 		<transition>
-			<from>6</from>
-			<to>7</to>
-			<read>H</read>
-		</transition>
-		<transition>
 			<from>7</from>
 			<to>11</to>
 			<read>[[A-Z]^I]|[9-0]</read>
 		</transition>
 		<transition>
-			<from>0</from>
-			<to>12</to>
-			<read>[9-0]</read>
+			<from>8</from>
+			<to>9</to>
+			<read>L</read>
 		</transition>
 		<transition>
-			<from>6</from>
+			<from>3</from>
 			<to>11</to>
-			<read>[[A-Z]^H]|[9-0]</read>
-		</transition>
-		<transition>
-			<from>9</from>
-			<to>11</to>
-			<read>[[A-Z]^E]|[9-0]</read>
+			<read>[[A-Z]^O]|[9-0]</read>
 		</transition>
 		<transition>
 			<from>0</from>
-			<to>1</to>
-			<read>I</read>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>6</to>
-			<read>W</read>
+			<to>3</to>
+			<read>F</read>
 		</transition>
 		<transition>
 			<from>2</from>
@@ -108,43 +93,13 @@
 		</transition>
 		<transition>
 			<from>0</from>
-			<to>3</to>
-			<read>F</read>
+			<to>1</to>
+			<read>I</read>
 		</transition>
 		<transition>
 			<from>10</from>
 			<to>11</to>
 			<read>[[A-Z]]|[9-0]</read>
-		</transition>
-		<transition>
-			<from>3</from>
-			<to>11</to>
-			<read>[[A-Z]^O]|[9-0]</read>
-		</transition>
-		<transition>
-			<from>7</from>
-			<to>8</to>
-			<read>I</read>
-		</transition>
-		<transition>
-			<from>1</from>
-			<to>11</to>
-			<read>[[A-Z]]|[9-0]</read>
-		</transition>
-		<transition>
-			<from>11</from>
-			<to>11</to>
-			<read>[A-Z][9-0]</read>
-		</transition>
-		<transition>
-			<from>8</from>
-			<to>11</to>
-			<read>[[A-Z]^L]|[9-0]</read>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>11</to>
-			<read>[A-Z]^[I F W]</read>
 		</transition>
 		<transition>
 			<from>5</from>
@@ -153,23 +108,13 @@
 		</transition>
 		<transition>
 			<from>4</from>
-			<to>11</to>
-			<read>[[A-Z]^R]|[9-0]</read>
-		</transition>
-		<transition>
-			<from>4</from>
 			<to>5</to>
 			<read>R</read>
 		</transition>
 		<transition>
-			<from>1</from>
-			<to>2</to>
-			<read>F</read>
-		</transition>
-		<transition>
-			<from>8</from>
-			<to>9</to>
-			<read>L</read>
+			<from>0</from>
+			<to>12</to>
+			<read>[9-0]</read>
 		</transition>
 		<transition>
 			<from>9</from>
@@ -177,14 +122,69 @@
 			<read>E</read>
 		</transition>
 		<transition>
-			<from>12</from>
+			<from>11</from>
 			<to>11</to>
-			<read>[A-Z]</read>
+			<read>[A-Z][9-0]</read>
 		</transition>
 		<transition>
 			<from>3</from>
 			<to>4</to>
 			<read>O</read>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>7</to>
+			<read>H</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>11</to>
+			<read>[[A-Z]^R]|[9-0]</read>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>11</to>
+			<read>[[A-Z]^H]|[9-0]</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>11</to>
+			<read>[[A-Z]]|[9-0]^F</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>11</to>
+			<read>[A-Z]^[I F W]</read>
+		</transition>
+		<transition>
+			<from>12</from>
+			<to>11</to>
+			<read>[A-Z]</read>
+		</transition>
+		<transition>
+			<from>8</from>
+			<to>11</to>
+			<read>[[A-Z]^L]|[9-0]</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>F</read>
+		</transition>
+		<transition>
+			<from>9</from>
+			<to>11</to>
+			<read>[[A-Z]^E]|[9-0]</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>6</to>
+			<read>W</read>
+		</transition>
+		<transition>
+			<from>7</from>
+			<to>8</to>
+			<read>I</read>
 		</transition>
 	</automaton>
 </structure>
